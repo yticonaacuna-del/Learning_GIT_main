@@ -1,0 +1,22 @@
+comandos:
+    git commit --amend ? => 
+        🛠️ ¿Qué hace git commit --amend?
+            Permite modificar el último commit, ya sea para:
+            Cambiar el mensaje.
+            Agregar archivos que olvidaste incluir.
+            Corregir un pequeño error.
+        ⚠️ ¡OJO IMPORTANTE!
+        Solo debes usar --amend si aún no has hecho push al repositorio remoto.
+        Si ya hiciste push y haces amend, el historial cambia y puede causar conflictos si trabajas en equipo.
+        (Si necesitas hacerlo de todos modos, habría que usar git push --force, pero con mucho cuidado.)
+        🧠 En resumen:
+            Acción	Comando
+            Cambiar mensaje del último commit => git commit --amend -m "Nuevo mensaje"
+            Agregar archivos olvidados al último commit => git add archivo && git commit --amend
+
+
+
+
+
+
+
